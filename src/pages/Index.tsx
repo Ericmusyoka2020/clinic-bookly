@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import BookingForm from '@/components/BookingForm';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <div className="py-16 px-4">
         <BookingForm />
       </div>
+      <Footer />
     </div>
   );
 };
