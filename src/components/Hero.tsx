@@ -1,11 +1,15 @@
 import React from 'react';
 import { Heart, Shield, Clock } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 export default function Hero() {
   return (
     <div className="bg-gradient-hero min-h-[400px] flex items-center justify-center px-4">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="space-y-4">
+          <div className="flex justify-center mb-6">
+            <img src={logo} alt="EricStackCraft Clinic Logo" className="h-20 w-20 object-contain" />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground">
             Your Health,{' '}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
