@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
-              HealthCare Clinic
+              EricStackCraft Clinic
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Providing comprehensive healthcare services with compassion, expertise, and cutting-edge medical technology. Your health and well-being are our top priorities.
@@ -55,14 +55,14 @@ export default function Footer() {
               <div className="flex items-center space-x-3 text-sm">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
                 <div>
-                  <p className="text-foreground font-medium">+1 (555) 123-4567</p>
+                  <p className="text-foreground font-medium">0756225185</p>
                   <p className="text-muted-foreground text-xs">24/7 Emergency Line</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
                 <div>
-                  <p className="text-foreground font-medium">info@healthcareclinic.com</p>
+                  <p className="text-foreground font-medium">ericmusyoka17@gmail.com</p>
                   <p className="text-muted-foreground text-xs">General inquiries</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function Footer() {
       <div className="py-4 px-4 border-t border-border bg-background/50">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} HealthCare Clinic. All rights reserved.
+            © {currentYear} EricStackCraft Clinic. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 text-xs text-muted-foreground">
             <span>Licensed Healthcare Provider</span>
